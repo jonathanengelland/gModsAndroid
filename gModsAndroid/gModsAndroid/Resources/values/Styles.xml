@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <style name="Gmods" parant="Theme.AppCompat.Light.NoActionBar">   //noActionBar erstellen dies später, weil Android sonst blockiert
+    <item name="PrimaryColor">#2c343f</item>
+    <item name="ArrowStyle">@style/MyArrowStyle</item>  
+  </style>
+
+  <style name="MyArrowStyle">
+    
+    
+  </style>
+</resources>
