@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
+    <Compile Include="MyActionBarDrawerToggle.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -86,7 +87,6 @@
     <XamarinComponentReference Include="xamandroidsupportv4-18">
       <Visible>False</Visible>
       <Version>23.1.1.1</Version>
-      <InstallationInProgress>True</InstallationInProgress>
     </XamarinComponentReference>
     <XamarinComponentReference Include="xamandroidsupportv7appcompat">
       <Visible>False</Visible>

@@ -14,5 +14,29 @@
         android:background="?attr/PrimaryColor"
         app:theme="@style/ThemeOverlay.AppCompat.Dark.Actionbar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
-    <android.support.v4.widget.DrawerLayout />
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <!-- Hauptkontent-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_hight="warp_content"
+                android:text="gMods"
+                android:layout_centerInParent="true" />
+        </RelativeLayout>
+    <!-- Linke Navigation-->
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:choiceMode="singelChoice"
+            android:divider="#818181"
+            android:dividerheight="1dp"
+            android:background="#E3F2FD" />
+    </android.support.v4.widget.DrawerLayout>
 </LinearLayout>

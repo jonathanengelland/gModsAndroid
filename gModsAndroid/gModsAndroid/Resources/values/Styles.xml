@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <resources>
 
-  <!-- Actiobar -->
+  <!--Actiobar -->
 
   <style name="gMods" parant="Theme.AppCompat.Light.NoActionBar">
     //noActionBar erstellen dies später, weil Android sonst blockiert
-    <item name="PrimaryColor">#2c343f</item>                                         <!-- Farbe für die Actionbar -->
-    <item name="ArrowStyle">@style/MyArrowStyle</item>
+    <item name="colorPrimary">#2c343f</item>                                         <!-- Farbe für die Actionbar -->
+    <item name="drawerArrowStyle">@style/MyArrowStyle</item>
   </style>
 
-  <!-- Arrow (Menübutton) -->
+  <!-- Arrow (Menübutton) https://www.youtube.com/watch?v=npG0Vtn0oIk&index=48&list=PLCuRg51-gw5VqYchUekCqxUS9hEZkDf6l -->
 
-  <style name="MyArrowStyle" parent="widget.AppCompat.DrawerArrowToggle">
+  <style name="MyDrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
     <item name="color">#2c343f</item>
-    <item name="SpinBar">true</item>                                                  <!-- von Burger zu Feil -->
+    <item name="spinBars">true</item>                                                  <!-- von Burger zu Feil -->
 
   </style>
 </resources>
